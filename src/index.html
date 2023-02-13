@@ -7,8 +7,29 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>CIFRA TU MENSAJE</h1>
     </div>
+    <ul>
+      <li>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="user_name">
+      </li>
+      <li>
+        <label for="offset">Elige tu offset</label>
+        <input type="text" id="offset" name="user_offset">
+      </li>
+      <li>
+        <label for="message">Escribe tu mensaje </label>
+        <textarea id="message" name="user_message" placeholder="SOLO USA PALABARA EN MAYUSCULA Y OMITE EL USO DE LA LETRA Ñ ">
+        </textarea>
+        <span class="validity"></span>
+      </li>
+      <li class="button">
+        <button type="submit">Envíe su mensaje</button>
+      </li>
+    </ul>
+    
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
