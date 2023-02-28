@@ -469,3 +469,20 @@ Project Feedback:
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages.
 * [ ] El README contiene una definición del producto.
+
+
+**PRESENTACION DEL PRODUCTO**  
+En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
+para definir el producto final a nivel de experiencia y de interfaz. Estas
+preguntas sirven como guia:
+
+* Quiénes son los principales usuarios de producto
+* Cuáles son los objetivos de estos usuarios en relación con tu producto
+* Cómo crees que el producto que estás creando está resolviendo sus problemas
+
+## Principales usuarios del producto
+Actualmete muchas de nuestras actividades las realizamos en la web, como la compra de prductos, el uso de plataformas educativas virtuales, el uso de plataformas para nuestro entretenimiento y entre otros los cuales suelen solicitarnos un usuario y contraseña. Recordar todas las contraseñas puede ser tedioso, guardarlos en la red es peligros y anotarlos en un documento puede ser riesgoso a que alguien puede encontrarlo. Por lo que puede ser util cifrarlos, es decir ocultar nuestras contraseñas o algún texto en general donde además solo nosotros podamos descifrarlas. 
+## Objetivos del usuario con relación al producto
+De esta forma el usuario podrá proteger sus contraseñas de terceros  
+## Cómo el producto resuelve el problema
+
