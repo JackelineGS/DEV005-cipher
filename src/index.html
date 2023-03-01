@@ -9,28 +9,28 @@
     <section>
       <h1>CIFRA TUS DATOS</h1>
     </section>
-    <form  id="formulario">
+    <form  id="formulario" class="form">
     <ul>
       <li>
         <label for="message" class="lab1">Escribe un mensaje </label>
-        <input type= "text" id="message"  name="message" autofocus  onkeyup="javascript:this.value=this.value.toUpperCase();">
+        <input type= "text" id="message"  name="message" autofocus  onkeyup="javascript:this.value=this.value.toUpperCase();" class="in">
         <li>
-          <label for="offset" class="lab2">Elige el desplazamiento</label>
-          <input type="number" id="offset"  name="offset">
+          <label for="offset" class="lab2">Desplazamiento</label>
+          <input type="number" id="offset"  name="offset" class="in2">
         </li>
       </li>
       <li class="button">
-        <button type="submit" id="boton-Cifrar">Cifrar</button>
+        <button type="submit" id="boton-Cifrar" class="in1">Cifrar</button>
       </li>
       <li class="button">
-        <button type="submit" id="boton-Descifrar">Descifrar</button>
+        <button type="submit" id="boton-Descifrar" class="in1">Descifrar</button>
       </li>
       <li>
         <label for="message-cifrado" class="lab3"> Mensaje Cifrado </label>
-        <input type= "text" id="resultado"  name="resultado-cifrado">
+        <input type= "text" id="resultado"  name="resultado-cifrado" class="in">
       </li>
       <li class="button">
-        <button type="submit" id="reiniciar">Reiniciar</button>
+        <button type="submit" id="reiniciar" class="in1">Reiniciar</button>
       </li>
     </ul>
   </form>

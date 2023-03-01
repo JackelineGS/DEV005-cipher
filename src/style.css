@@ -1,10 +1,11 @@
 form {
     margin: 0 auto;
-    width: 400px;
-    padding: 2em;
+    width: 800px;
+    padding: 1em;
     border: 1px solid #625b51;
     border-radius: 2em;
     background: rgba(43, 43, 42, 0.9);
+    font-size: 30px;
 }
 
 body {
@@ -24,10 +25,11 @@ form li + li {
 
 label {
     display: inline-block;
-    width: 210px;
+    width: 300px;
     text-align: right;
     vertical-align: top;
     font-family: cursive;
+    font-size: 30px;
 }
 
 .lab1 {
@@ -43,7 +45,7 @@ label {
 }
 
 .button {
-    padding-left: 210px;
+    padding-left: 314px;
 }
 
 button {
@@ -52,10 +54,25 @@ button {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
     font-family: Verdana;
     color: rgb(203, 234, 50);
 }
 
+.in {
+    width: 300px;
+    font-size: 20px;
+    margin: auto 2%;
+}
 
+.in1 {
+    width: 100px;
+    font-size: 20px;
+}
+
+.in2 {
+    width: 200px;
+    font-size: 20px;
+    margin: auto 2%;
+}
