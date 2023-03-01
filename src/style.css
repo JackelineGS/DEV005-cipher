@@ -8,7 +8,8 @@ form {
 }
 
 body {
-    background-image:url("./lucesazules.png");
+    background-image:url("lucesazules.png");
+    background-color: #cccccc;
 }
 
 ul{
@@ -54,7 +55,7 @@ h1 {
     font-size: 40px;
     font-weight: 200;
     font-family: Verdana;
-    color: rgb(218, 227, 231);
+    color: rgb(203, 234, 50);
 }
 
 
