@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Principales usuarios](#1-principales-usuarios)
-* [2. Obetivos del usuario](#2-objetivos-del-usuario)
+* [2. Objetivos del usuario](#2-objetivos-del-usuario)
 * [3. Como el producto resuelve el problema](#3-cómo-el-producto-resuelve-el-problema)
 * [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
 
