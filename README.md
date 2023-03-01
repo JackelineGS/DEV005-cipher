@@ -51,7 +51,8 @@ Para este proyecto se requirió aprender ciertos aspectos del manejo de HTML, CS
 - **Git: Instalación y configuración**
 - **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 - **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
-- **GitHub: Despliegue con GitHub Pages**
+- **GitHub: Despliegue con GitHub Pages**!
+
 
 # [Github pages](https://jackelinegs.github.io/DEV005-cipher/src/) 
 
