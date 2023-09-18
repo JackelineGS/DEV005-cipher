@@ -7,31 +7,27 @@
   </head>
   <body>
     <div class="divBody">
-      <h1 class="title">CIFRA TUS MENSAJES</h1>
+      <h1 class="title">CREA MENSAJES SECRETOS!</h1>
     <form  id="formulario" class="form">
-    <ul>
-      <li>
-        <label for="message" class="lab1">Escribe un mensaje </label>
-        <input type= "text" id="message"  name="message" autofocus  onkeyup="javascript:this.value=this.value.toUpperCase();" class="in">
-        <li>
-          <label for="offset" class="lab2">Elije el desplazamiento</label>
-          <input type="number" id="offset"  name="offset" class="in2">
-        </li>
-      </li>
-      <li class="button">
-        <button type="submit" id="boton-Cifrar" class="in1">Cifrar</button>
-      </li>
-      <li class="button">
-        <button type="submit" id="boton-Descifrar" class="in1">Descifrar</button>
-      </li>
-      <li>
-        <label for="message-cifrado" class="lab3"> Mensaje Cifrado </label>
-        <input type= "text" id="resultado"  name="resultado-cifrado" class="in">
-      </li>
-      <li class="button">
-        <button type="submit" id="reiniciar" class="in1">Reiniciar</button>
-      </li>
-    </ul>
+      <div class="innerTotal">
+        <div class="sectionOne">
+          <label for="message" class="lab1">Escribe un mensaje </label>
+          <input type= "text" id="message"  name="message" autofocus  onkeyup="javascript:this.value=this.value.toUpperCase();" class="in">
+          <div class="move">
+            <label for="offset" class="lab2">Elije el desplazamiento</label>
+            <input type="number" id="offset"  name="offset" class="in2">
+          </div>
+            <div class="buttons">
+              <button type="submit" id="boton-Cifrar" class="buttonCifra">Cifrar</button>
+              <button type="submit" id="boton-Descifrar" class="buttonDescifra">Descifrar</button>
+            </div>  
+      </div>
+      <div class="sectionTwo">
+          <label for="message-cifrado" class="lab3"> Mensaje Cifrado </label>
+          <input type= "text" id="resultado"  name="resultado-cifrado" class="inTwo">
+          <button type="submit" id="reiniciar" class="buttonReiniciar">Reiniciar</button>
+      </div>
+      </div>
   </form>
     </div>
       

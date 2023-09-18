@@ -25,52 +25,68 @@ body {
     font-weight: 200;
     font-family: 'Mooli', sans-serif;
     margin: 10px;
+    margin-bottom: 20px;
     background-color: #625b51;
     width: 50%;
 }
 
-form {
+.form {
+    display: flex;
     margin: 0 auto;
-    width: 800px;
-    height: 45%;
+    width: 90%;
+    height: 70%;
     padding: 1em;
     border: 1px solid #625b51;
     border-radius: 2em;
     background: rgba(43, 43, 42, 0.9);
     font-size: 30px;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
+    flex-direction: row;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.innerTotal {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
 }
 
-form li + li {
-    margin-top: 1em;
+.sectionOne {
+    display: flex;
+    height: 90%;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
 }
 
-label {
-    display: inline-block;
-    width: 300px;
-    text-align: right;
-    vertical-align: top;
-    font-family: cursive;
-    font-size: 30px;
+.sectionTwo {
+    display: flex;
+    height: 90%;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
+
 
 .lab1 {
+    display: flex;
     font-family: 'Mooli', sans-serif;
     color: #09d09e;
-    width: 50%;
+    width: 90%;
 }
 
 .lab2 {
+    display: flex;
     font-family: 'Mooli', sans-serif;
     color: rgb(233, 10, 95);
-    width: 50%;
+    width: 65%;
 }
 
 .lab3 {
@@ -79,31 +95,74 @@ label {
     width: 50%;
 }
 
-.button {
-    padding-left: 314px;
-}
-
 button {
     margin-left: .5em;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .in {
-    width: 300px;
+    width: 90%;
+    height: 35%;
     font-size: 20px;
-    margin: auto 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: white;
 }
 
-.in1 {
-    width: 100px;
+.inTwo {
+    width: 90%;
+    height: 50%;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.move {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCifra {
+    width: 40%;
+    font-size: 20px;
+    background-color: #09d09e;
+    color: white;
+}
+
+.buttonDescifra {
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(233, 10, 95);
+    color: white;
+}
+
+.buttonReiniciar {
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(11, 206, 240); 
+    color: white;
 }
 
 .in2 {
-    width: 10%;
+    width: 20%;
     font-size: 20px;
-    margin: auto 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: none;
 }
 
 input {
