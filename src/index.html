@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <h1>CIFRA TUS DATOS</h1>
-    </section>
+    <div class="divBody">
+      <h1 class="title">CIFRA TUS MENSAJES</h1>
     <form  id="formulario" class="form">
     <ul>
       <li>
         <label for="message" class="lab1">Escribe un mensaje </label>
         <input type= "text" id="message"  name="message" autofocus  onkeyup="javascript:this.value=this.value.toUpperCase();" class="in">
         <li>
-          <label for="offset" class="lab2">Desplazamiento</label>
+          <label for="offset" class="lab2">Elije el desplazamiento</label>
           <input type="number" id="offset"  name="offset" class="in2">
         </li>
       </li>
@@ -34,6 +33,8 @@
       </li>
     </ul>
   </form>
+    </div>
+      
 
     <script src="index.js" type="module"></script>
   </body>
